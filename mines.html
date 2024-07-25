@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="title">Minesweeper</h1>
+        <p class="subtitle">Mines left:<span data-mine-count></span></p>
+      </header>
+      <div class="board"></div>
+    
+      <button class="retry-button" onclick="restartGame()">Retry</button>
+      <section class="rules">
+        <h2>How to Play</h2>
+        <p><strong>1. Start the Game:</strong> Click on any cell to begin. The cell will reveal its contents.</p>
+        <p><strong>2. Uncover Cells:</strong> Click on cells to uncover them. Numbers indicate how many mines are adjacent to that cell.</p>
+        <p><strong>3. Flag Mines:</strong> Right-click to place a flag on cells you suspect contain mines. This helps avoid accidental clicks.</p>
+        <p><strong>4. Avoid Mines:</strong> Try to uncover all cells without clicking on any mines. If you uncover a mine, the game is over.</p>
+        <p><strong>5. Win the Game:</strong> Successfully uncover all non-mine cells to win. Use logic and deduction to avoid mines and reveal safe areas.</p>
+      </section>
+      
+    </div>
+  </body>
+</html>
