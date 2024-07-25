@@ -1,8 +1,9 @@
-# Minefield
-A classic Minesweeper game implemented in Python. This game includes a GUI built with Tkinter, where users can click to reveal cells, flag mines, and try to avoid detonating hidden mines.  
+# Minesweeper Game
+
+A classic Minesweeper game implemented with HTML, CSS, and JavaScript. This game includes a responsive design, allowing users to play Minesweeper directly in their web browser.
+
 ## Features
 
 - **Classic Gameplay:** Standard Minesweeper mechanics.
-- **GUI:** Built using Tkinter for an interactive user experience.
-- **Icons:** Custom icons for mines, flags, and cells.
-- 
+- **Responsive Design:** Playable on both desktop and mobile devices.
+- **Customizable:** Easily change the grid size and number of mines.
